@@ -43,7 +43,7 @@ const Contact = () => {
      
       <div className="mt-8 w-full border-t border-gray-800 p-2 pt-8 text-center">
         <a className="">bucklestudio@email.com</a>
-        <p className="my-5 leading-normal">19 wilson Straße. <br />Graz, Austria,MN 5633</p>
+        <p className="my-5 leading-normal">Schmiedgasse 10 <br /> 8010 Graz, Austria</p>
         <span className="inline-flex">
           <a className="text-gray-500">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="h-5 w-5" viewBox="0 0 24 24">

@@ -1,7 +1,7 @@
 "use client"
 import NavMenu from "@/components/NavMenu";
 import { useState } from "react";
-
+import Head from 'next/head';
 import { AnimatePresence, motion } from "framer-motion";
 import { easings, textRevealMotion } from "@/utils/animations";
 import Navbar from "@/components/Navbar";
@@ -13,6 +13,9 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+			<link rel='icon' href='/favicon.ico' />
+		</Head>
       <section className="h-screen bg-black relative flex flex-col">
         <AnimatePresence>{menuOpen && <NavMenu />}</AnimatePresence>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -56,8 +59,8 @@ export default function Home() {
                 },
               }}
             >
-              Innovative Solutions is a creative agency specializing in cutting-edge 
-              digital experiences. Building upon the legacy of Buckles Studio®, we collaborate with businesses worldwide, empowering them to thrive and reach new heights in the digital landscape."
+             Buckles Studio® is a creative agency specializing in cutting-edge 
+              digital experiences.we collaborate with businesses worldwide, empowering them to thrive and reach new heights in the digital landscape."
             </motion.p>
           </div>
         </motion.div>
