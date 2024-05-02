@@ -1,8 +1,8 @@
-const { clsx } = require("clsx");
-const { twMerge } = require("tailwind-merge");
+import { clsx } from "clsx"
+import { twMerge } from "tailwind-merge"
 
-function cn(...inputs) {
-  return twMerge(clsx(...inputs));
+export function cn(...inputs) {
+  return twMerge(clsx(inputs))
 }
 
-module.exports = { cn };
+//from acertenity ui library to create card stack

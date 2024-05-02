@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className=" m-10 text-white  ">
       <h1 className="text-2xl  tracking-wider justify-center flex ">
-        {" "}
+        
         Our Services
       </h1>
       <div className="mx-auto max-w-lg mt-24 ">
@@ -44,9 +44,9 @@ const Services = () => {
               </div>
             </summary>
             <div className="pb-4 text-secondary-500">
-              This is the first item's accordion body.
+            Building  with cutting-edge technology, intuitive interfaces,seamless navigation, and robust functionality.
             </div>
-            <div class="space-x-2 flex flex-wrap gap-1">
+            <div className="space-x-2 flex flex-wrap gap-1">
               <span className="border border-gray-300 rounded-full px-4 text-sm text-gray-700 py-0.5">
                 Full-stack
               </span>
@@ -65,7 +65,7 @@ const Services = () => {
           </details>
           <details className="group">
             <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
-              Design
+            Product Design
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,23 @@ const Services = () => {
               </div>
             </summary>
             <div className="pb-4 text-secondary-500">
-              This is the second item's accordion body.
+            Delivering tailored products with innovative design, strategic vision, and responsive designs.
+            </div>
+            <div class="space-x-2 flex flex-wrap gap-1 mb-2">
+              <span className="border border-gray-300 rounded-full px-4 text-sm text-gray-700 py-0.5">
+                UX/UI design
+              </span>
+
+              <span className="border border-gray-200 rounded-full px-4 text-sm text-gray-700 py-0.5">
+              SAAS platforms
+              </span>
+
+              <span className="border border-amber-600 rounded-full px-4 text-sm text-gray-600 py-0.5">
+                Web apps
+              </span>
+              <span className="border border-yellow-600 rounded-full px-4 text-sm text-gray-600 py-0.5">
+              Mobile apps
+              </span>
             </div>
           </details>
           <details className="group">
@@ -136,12 +152,15 @@ const Services = () => {
               </div>
             </summary>
             <div className="pb-4 text-secondary-500">
-              This is the third item's accordion body.
+            Our mission is to empower clients by providing strategic insights and tailored solutions to enhance their
+             performance. By leveraging a blend of cutting-edge research, comprehensive audits, and rigorous usability testing,
+              we pinpoint key areas for growth and deliver actionable strategies in a detailed roadmap, ensuring measurable 
+            progress and sustainable success.
             </div>
           </details>
           <details className="group">
             <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
-              product design
+            Web design
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -174,23 +193,24 @@ const Services = () => {
               </div>
             </summary>
             <div className="pb-4 text-secondary-500">
-              This is the forth item's accordion body.
+             
+Elevating online presence with innovative design, user-centric focus, and personalized support.
             </div>
 
-            <div class="space-x-2">
+            <div className="space-x-2 flex flex-wrap gap-1">
               <span className="border border-gray-300 rounded-full px-4 text-sm text-gray-700 py-0.5">
-                Label
+                Landing page
               </span>
 
               <span className="border border-gray-200 rounded-full px-4 text-sm text-gray-700 py-0.5">
-                Label
+                corporate website
               </span>
 
               <span className="border border-amber-600 rounded-full px-4 text-sm text-gray-600 py-0.5">
                 Label
               </span>
               <span className="border border-yellow-600 rounded-full px-4 text-sm text-gray-600 py-0.5">
-                Labelkkk
+                online store
               </span>
             </div>
           </details>

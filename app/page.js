@@ -7,15 +7,19 @@ import { easings, textRevealMotion } from "@/utils/animations";
 import Navbar from "@/components/Navbar";
 import Services from "./services/page";
 import Contact from "./contact/page";
+import People from "./people/page";
+import CardStack from "@/components/CardStack"
+
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <main>
+   <>
       <Head>
 			<link rel='icon' href='/favicon.ico' />
 		</Head>
+     <main>
       <section className="h-screen bg-black relative flex flex-col">
         <AnimatePresence>{menuOpen && <NavMenu />}</AnimatePresence>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -65,11 +69,17 @@ export default function Home() {
           </div>
         </motion.div>
         {/* more CONTENT*/}
-        <Services/>
+         <Services/>
+        <People/>
+        <CardStack/>
         <Contact/>
+        
 
         
       </section>
     </main>
+    </>
   );
 }
+
+

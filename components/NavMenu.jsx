@@ -23,7 +23,7 @@ const NavMenu = () => {
     {
       id: 4,
       name: "People & Culture",
-      path: "/culture"
+      path: "/people"
     },
     {
       id: 5,
