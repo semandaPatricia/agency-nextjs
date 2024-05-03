@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      domains: ['loremflickr.com', 'images.pexels.com'],
+      domains: ['loremflickr.com', 'images.pexels.com','cdn.dribbble.com'],
   },
     webpack(config) {
       config.module.rules.push({

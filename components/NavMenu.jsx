@@ -25,13 +25,10 @@ const NavMenu = () => {
       name: "People & Culture",
       path: "/people"
     },
+    
+   
     {
       id: 5,
-      name: "Clients & Partners",
-      path: "/partners"
-    },
-    {
-      id: 6,
       name: "Get In Touch",
       path: "/contact"
     }

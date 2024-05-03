@@ -46,7 +46,7 @@ const ScrollWords = () => {
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>We are Buckles -</p>
-          <p ref={secondText}>We are Buckles-</p>
+          <p ref={secondText}>We are Buckles.</p>
 
         </div>
       </div>

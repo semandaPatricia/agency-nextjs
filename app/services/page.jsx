@@ -2,12 +2,11 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className=" m-10 text-white  ">
+    <div className=" m-8 text-black " style={{ borderRadius: '1em', backgroundColor: '#ccbaa9', padding: '1em' }}>
       <h1 className="text-2xl  tracking-wider justify-center flex ">
-        
         Our Services
       </h1>
-      <div className="mx-auto max-w-lg mt-24 ">
+      <div className="mx-auto  lg:max-w-lg mt-20 mb-8 ">
         <div className="divide-y divide-gray-300 ">
           <details className="group mb-3" open>
             <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
@@ -48,7 +47,7 @@ const Services = () => {
             </div>
             <div className="space-x-2 flex flex-wrap gap-1">
               <span className="border border-gray-300 rounded-full px-4 text-sm text-gray-700 py-0.5">
-                Full-stack
+                Full-stack dev
               </span>
 
               <span className="border border-gray-200 rounded-full px-4 text-sm text-gray-700 py-0.5">

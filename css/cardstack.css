@@ -6,7 +6,7 @@
         width: 90%;
         padding: 1em;
         border-radius: 1em;
-        background-color:#ccbaa9;
+        background-color:#dbd8d9;
         
         
       }
@@ -24,11 +24,11 @@
       }
       
       .card:nth-child(1) {
-        background-color: #dbd8d9;
+        background-color: black;
       }
       
       .card:nth-child(2) {
-        background-color:#d3f8f4;
+        background-color:#b17bef;
       }
       
       .card:nth-child(3) {
@@ -36,15 +36,15 @@
       }
       
       .card:nth-child(4) {
-        background-color: #d3f8f4;
+        background-color: #b17bef;
       }
       
       .card:nth-child(5) {
-        background-color: #dbd8d9;
+        background-color: black;
       }
       
       .card:nth-child(6) {
-        background-color: #eae0e3;
+        background-color: #dbd8d9
       }
       
       .card__title {

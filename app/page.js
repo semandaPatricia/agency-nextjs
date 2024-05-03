@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 import Services from "./services/page";
 import Contact from "./contact/page";
 import People from "./people/page";
-import CardStack from "@/components/CardStack"
+import Work from "./work/page";
 
 
 export default function Home() {
@@ -71,7 +71,7 @@ export default function Home() {
         {/* more CONTENT*/}
          <Services/>
         <People/>
-        <CardStack/>
+        <Work/>
         <Contact/>
         
 
